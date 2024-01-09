@@ -1,5 +1,9 @@
 # Library-management
 
+### Architecture
+
+![Architecture diagram](https://github.com/pateldivyesh1323/library-management/assets/109150688/0198df8a-0e34-49cd-84c2-5a770402315f)
+
 
 ### Steps for setting up locally
 

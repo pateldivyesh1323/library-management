@@ -47,6 +47,9 @@ To acceess the protected routes you will first hit register or login endpoint, t
 - Books
 
   - '/api/books/': get : getAll : protectedRoute
+    - /api/books?page=1 : Gives books data according to page no
+    - /api/books?sort=min : Sorts the book data ascending to number of likes
+    - /api/books?sort=max : Sorts the book data descending to number of likes
   - '/api/books/:id': get : getOne : protectedRoute
   - '/api/books/': post : createNew : protectedRoute
   - '/api/books/:id': put : updateBook : protectedRoute
